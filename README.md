@@ -52,14 +52,14 @@ cat < file2
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ ![Alt text](os_exp2.png)
 comm file1 file2
  ## OUTPUT
 
  
 diff file1 file2
 ## OUTPUT
-
+![Alt text](os_exp3.png)
 
 #Filters
 
