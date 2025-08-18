@@ -43,7 +43,7 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
-
+![Alt text](os_exp1.png)
 
 cat < file2
 ## OUTPUT
