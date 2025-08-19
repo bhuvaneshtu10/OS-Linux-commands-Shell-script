@@ -42,24 +42,25 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+![catfile1](/os_exp01.png)
 
-![Alt text](os_exp1.png)
 
 cat < file2
 ## OUTPUT
 
+![Alt text](../../os_exp01.png)
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- ![Alt text](os_exp2.png)
+
 comm file1 file2
  ## OUTPUT
 
  
 diff file1 file2
 ## OUTPUT
-![Alt text](os_exp3.png)
+
 
 #Filters
 
@@ -83,18 +84,18 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
-![Alt text](os_exp4.png)
+
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
-![Alt text](os_exp5.png)
+
 
 cut -d "|" -f 2 file22
 ## OUTPUT
 
-![Alt text](os_exp6.png)
+
 
 cat < newfile 
 ```
