@@ -372,6 +372,8 @@ ls .gz
 ## OUTPUT
  
 gunzip backup.tar.gz
+
+![Alt text](os_exp01_53.png)
 ## OUTPUT
 
  
@@ -382,6 +384,8 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 ```
 chmod 755 my-script.sh
 ./my-script.sh
+
+![Alt text](os_exp01_54.png)
 ## OUTPUT
 
  
@@ -394,6 +398,8 @@ stop
 ```
 
 cat herecheck.txt
+
+![Alt text](os_exp01_55.png)
 ## OUTPUT
 
 
@@ -432,6 +438,7 @@ chmod 777 scriptest.sh
  
 ./scriptest.sh 1 2 3
 
+![Alt text](os_exp01_56.png)
 ## OUTPUT
 
  
