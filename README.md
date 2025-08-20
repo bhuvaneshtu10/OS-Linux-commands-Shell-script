@@ -43,7 +43,7 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
-![Alt text](os_newfileexp01.png)
+![Alt text][def]
 cat < file2
 ## OUTPUT
 ![Alt text](os_exp01.png)
@@ -1090,3 +1090,6 @@ fi
 
 # RESULT:
 The Commands are executed successfully.
+
+
+[def]: os_newfileexp01.png
