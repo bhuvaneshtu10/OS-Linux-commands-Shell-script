@@ -682,6 +682,7 @@ $ ./ifnested.sh
 ![Alt text](os_exp01_69.png)
 ![Alt text](os_exp01_70.png)
 ![Alt text](os_exp01_71.png)
+
 ##OUTPUT
 
 # looking for a possible value using elif
@@ -754,6 +755,7 @@ $ ./casecheck.sh
  
  ![Alt text](os_exp01_75.png)
  ![Alt text](os_exp01_errorfile1.png)
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -769,7 +771,8 @@ $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
  
- 
+ ![Alt text](os_exp01_errorfile.png)
+
 cat untiltest.sh 
 ```bash
 \#using the until command
@@ -782,7 +785,8 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
- 
+ ![Alt text](os_exp01_77.png)
+ ![Alt text](os_exp01_errorfile3.png)
  
 cat forin1.sh 
 ```bash
@@ -844,6 +848,7 @@ done
 ```
 $ chmod 755 forin1.sh
 
+
 ## OUTPUT
 cat forinfile.sh 
 ```bash
@@ -864,7 +869,10 @@ Warangal
 Adilabad
 Bhadrachalam
 Khammam
-
+![Alt text](os_exp01_errorfile4.png)
+![Alt text](os_exp01_79.png)
+![Alt text](os_exp01_80.png)
+![Alt text](os_exp01_81.png)
 ## OUTPUT
 
 
