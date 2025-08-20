@@ -185,25 +185,22 @@ egrep '[1-9]' newfile
 
 ![Alt text](os_exp01_23.png)
 ## OUTPUT
-
-
-
 egrep 'Linux.*world' newfile 
+
+![Alt text](os_exp01_24.png)
 ## OUTPUT
-
-
 egrep 'Linux.*World' newfile 
+
+![Alt text](os_exp01_25.png)
 ## OUTPUT
-
-
 egrep l{2} newfile
+
+![Alt text](os_exp01_26.png)
 ## OUTPUT
-
-
-
 egrep 's{1,2}' newfile
-## OUTPUT 
 
+![Alt text](os_exp01_27.png)
+## OUTPUT 
 
 cat > file23
 ```
@@ -220,79 +217,65 @@ cat > file23
 
 
 sed -n -e '3p' file23
+
+![Alt text](os_exp01_28.png)
 ## OUTPUT
-
-
-
 sed -n -e '$p' file23
+
+![Alt text](os_exp01_29.png)
 ## OUTPUT
-
-
-
 sed  -e 's/Ram/Sita/' file23
+
+![Alt text](os_exp01_30.png)
 ## OUTPUT
-
-
-
 sed  -e '2s/Ram/Sita/' file23
+
+![Alt text](os_exp01_31.png)
 ## OUTPUT
-
-
-
 sed  '/tom/s/5000/6000/' file23
+
+![Alt text](os_exp01_32.png)
 ## OUTPUT
-
-
-
 sed -n -e '1,5p' file23
+
+![Alt text](os_exp01_33.png)
 ## OUTPUT
-
-
-
 sed -n -e '2,/Joe/p' file23
+
+![Alt text](os_exp01_34.png)
 ## OUTPUT
-
-
-
-
 sed -n -e '/tom/,/Joe/p' file23
+
+![Alt text](os_exp01_35.png)
 ## OUTPUT
-
-
-
 seq 10 
+
+![Alt text](os_exp01_36.png)
 ## OUTPUT
-
-
-
 seq 10 | sed -n '4,6p'
+
+![Alt text](os_exp01_37.png)
 ## OUTPUT
-
-
-
 seq 10 | sed -n '2,~4p'
+
+![Alt text](os_exp01_38.png)
 ## OUTPUT
-
-
-
 seq 3 | sed '2a hello'
+
+![Alt text](os_exp01_39.png)
 ## OUTPUT
-
-
-
 seq 2 | sed '2i hello'
+
+![Alt text](os_exp01_40.png)
 ## OUTPUT
-
-
 seq 10 | sed '2,9c hello'
+
+![Alt text](os_exp01_41.png)
 ## OUTPUT
-
-
 sed -n '2,4{s/^/$/;p}' file23
+
+![Alt text](os_exp01_42.png)
 ## OUTPUT
-
-
-
 sed -n '2,4{s/$/*/;p}' file23
 
 
