@@ -42,8 +42,6 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-
-![Alt text][def]
 cat < file2
 ## OUTPUT
 ![Alt text](os_exp01.png)
@@ -53,9 +51,10 @@ cmp file1 file2
 
 comm file1 file2
  ## OUTPUT
-
- 
 diff file1 file2
+
+![Alt text](os_exp01_3.png)
+
 ## OUTPUT
 
 
