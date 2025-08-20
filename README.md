@@ -101,9 +101,11 @@ Hello world
 hello world
  
 grep Hello newfile 
+
 ![Alt text](os_exp01_9.png)
 ## OUTPUT
 grep hello newfile 
+
 ![Alt text](os_exp01_10.png)
 ## OUTPUT
 
