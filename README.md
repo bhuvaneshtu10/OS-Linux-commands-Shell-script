@@ -112,35 +112,27 @@ grep hello newfile
 
 ![Alt text](os_exp01_10.png)
 ## OUTPUT
-
-
-
-
 grep -v hello newfile 
+
+![Alt text](os_exp01_11.png)
+
 ## OUTPUT
-
-
-
 cat newfile | grep -i "hello"
+
+![Alt text](os_exp01_12.png)
 ## OUTPUT
-
-
-
-
 cat newfile | grep -i -c "hello"
+
+![Alt text](os_exp01_13.png)
 ## OUTPUT
-
-
-
-
 grep -R ubuntu /etc
+
+![Alt text](os_exp01_14.png)
 ## OUTPUT
-
-
-
 grep -w -n world newfile   
-## OUTPUT
 
+![Alt text](os_exp01_15.png)
+## OUTPUT
 
 cat < newfile 
 ```
@@ -162,16 +154,16 @@ Linux is best in this World
 ^d
  ```
 egrep -w 'Hello|hello' newfile 
+
+![Alt text](os_exp01_16.png)
 ## OUTPUT
-
-
-
 egrep -w '(H|h)ello' newfile 
+
+![Alt text](os_exp01_17.png)
 ## OUTPUT
-
-
-
 egrep -w '(H|h)ell[a-z]' newfile 
+
+![Alt text](os_exp01_18.png)
 ## OUTPUT
 
 
