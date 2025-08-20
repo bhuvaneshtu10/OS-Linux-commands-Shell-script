@@ -88,6 +88,7 @@ cut -d "|" -f 1 file22
 
 ## OUTPUT
 cut -d "|" -f 2 file22
+
 ![Alt text](os_exp01_8.png)
 ## OUTPUT
 cat < newfile 
