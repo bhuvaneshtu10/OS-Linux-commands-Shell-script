@@ -289,6 +289,10 @@ cat > file21
 1004 | Sit |  7000 | Dev
 ``` 
 sort file21
+
+![Alt text](os_exp01_43.png)
+![Alt text](os_exp01_44.png)
+
 ## OUTPUT
 
 
