@@ -439,23 +439,29 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ![Alt text](os_exp01_56.png)
+![Alt text](os_exp01_57.png)
 ## OUTPUT
-
- 
 ls file1
-## OUTPUT
 
+![Alt text](os_exp01_58.png)
+## OUTPUT
 echo $?
+
+![Alt text](os_exp01_59.png)
 ## OUTPUT 
 ./one
 bash: ./one: Permission denied
  
 echo $?
+
+![Alt text](os_exp01_60.png)
 ## OUTPUT 
  
 abcd
  
 echo $?
+
+
  ## OUTPUT
 
 
