@@ -887,6 +887,9 @@ done
 ````
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
+
+![Alt text](os_exp01_82.png)
+
 ## OUTPUT
 
 cat forctype1.sh 
@@ -900,6 +903,8 @@ done
 ```
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
+
+![Alt text](os_exp01_83.png)
 ## OUTPUT
 
 cat fornested1.sh 
@@ -918,6 +923,8 @@ done
 $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
+
+![Alt text](os_exp01_84.png)
  ## OUTPUT
 
  
@@ -935,12 +942,16 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
+
+
 ## OUTPUT
 
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
- 
+
+ ![Alt text](os_exp01_85.png)
+
 cat forbreak.sh 
 ```bash
 #!/bin/bash
@@ -960,6 +971,8 @@ echo "The for loop is completed“
 $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
+
+![Alt text](os_exp01_86.png)
 ## OUTPUT
  
 cat exread.sh 
@@ -974,6 +987,8 @@ echo "Hello $name, welcome to my program. "
 $ chmod 755 exread.sh 
  
 $ ./exread.sh 
+
+![Alt text](os_exp01_87.png)
 ## OUTPUT
 
 
@@ -992,6 +1007,8 @@ $ chmod 755 exread1.sh
 
 $ ./exread1.sh 
  
+![Alt text](os_exp01_88.png)
+
 cat funcex.sh
 ```bash
 #!/bin/bash
@@ -1013,6 +1030,7 @@ fi
  
  ./funcex.sh 1 2
 
+![Alt text](os_exp01_89.png)
  
 cat argshift.sh
 ```bash
@@ -1026,6 +1044,8 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
+
+![Alt text](os_exp01_90.png)
  
  cat argshift1.sh
 ```bash
@@ -1043,6 +1063,8 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
+
+![Alt text](os_exp01_91.png)
  
 cat argshift.sh
 ```bash
@@ -1057,7 +1079,8 @@ set +x
 ## OUTPUT
  ./argshift.sh 1 2 3
  
- 
+ ![Alt text](os_exp01_92.png)
+
 cat > nc.awk
 ```bash
 BEGIN{}
@@ -1086,6 +1109,8 @@ bcdfghj
 ubcdfghj
 ```
 awk -f nc.awk data.dat
+
+![Alt text](os_exp01_93.png)
 ## OUTPUT 
  
 cat > palindrome.sh
@@ -1115,6 +1140,7 @@ fi
 ```
 ## OUTPUT 
 
+![Alt text](os_exp01_94.png)
 
 # RESULT:
 The Commands are executed successfully.
