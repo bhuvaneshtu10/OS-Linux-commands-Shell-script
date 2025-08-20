@@ -294,8 +294,6 @@ sort file21
 ![Alt text](os_exp01_44.png)
 
 ## OUTPUT
-
-
 cat > file22
 ```
 1001 | Ram | 10000 | HR
@@ -306,6 +304,8 @@ cat > file22
 1004 | Sit |  7000 | Dev
 ``` 
 uniq file22
+
+![Alt text](os_exp01_45.png)
 ## OUTPUT
 
 
@@ -313,6 +313,8 @@ uniq file22
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
+
+![Alt text](os_exp01_46.png)
  ## OUTPUT
 
 cat < urllist.txt
@@ -329,11 +331,15 @@ www. google. com
 www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
+
+![Alt text](os_exp01_47.png)
  ## OUTPUT
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
+
+![Alt text](os_exp01_48.png)
 ## OUTPUT
 
 
