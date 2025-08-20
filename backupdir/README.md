@@ -42,8 +42,9 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+![catfile1](/os_exp01.png)
 
-![Alt text](os_newfileexp01.png)
+
 cat < file2
 ## OUTPUT
 ![Alt text](os_exp01.png)
