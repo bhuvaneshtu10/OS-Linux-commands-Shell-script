@@ -165,30 +165,25 @@ egrep -w '(H|h)ell[a-z]' newfile
 
 ![Alt text](os_exp01_18.png)
 ## OUTPUT
-
-
-
-
 egrep '(^hello)' newfile 
+
+![Alt text](os_exp01_19.png)
 ## OUTPUT
-
-
-
 egrep '(world$)' newfile 
+
+![Alt text](os_exp01_20.png)
 ## OUTPUT
-
-
-
 egrep '(World$)' newfile 
+
+![Alt text](os_exp01_21.png)
 ## OUTPUT
-
-
 egrep '((W|w)orld$)' newfile 
+
+![Alt text](os_exp01_22.png)
 ## OUTPUT
-
-
-
 egrep '[1-9]' newfile 
+
+![Alt text](os_exp01_23.png)
 ## OUTPUT
 
 
