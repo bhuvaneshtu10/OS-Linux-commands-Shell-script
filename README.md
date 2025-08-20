@@ -461,7 +461,7 @@ abcd
  
 echo $?
 
-
+![Alt text](os_exp01_61.png)
  ## OUTPUT
 
 
@@ -501,6 +501,8 @@ fi
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
+
+
 ## OUTPUT
 
 
