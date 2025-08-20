@@ -87,14 +87,9 @@ cut -d "|" -f 1 file22
 ![Alt text](os_exp01_7.png)
 
 ## OUTPUT
-
-
-
 cut -d "|" -f 2 file22
+![Alt text](os_exp01_8.png)
 ## OUTPUT
-
-
-
 cat < newfile 
 ```
 Hello world
@@ -106,11 +101,10 @@ Hello world
 hello world
  
 grep Hello newfile 
+![Alt text](os_exp01_9.png)
 ## OUTPUT
-
-
-
 grep hello newfile 
+![Alt text](os_exp01_10.png)
 ## OUTPUT
 
 
