@@ -39,12 +39,12 @@ lalit chowdury
 s.n. dasgupta
 ^d
 ```
+![Alt text](os_exp01.png)
+
 ### Display the content of the files
 cat < file1
 ## OUTPUT
 cat < file2
-
-![Alt text](os_exp01.png)
 ## OUTPUT
 
 ![Alt text](os_exp01_2.png)
