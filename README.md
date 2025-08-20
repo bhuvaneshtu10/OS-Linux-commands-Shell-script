@@ -346,9 +346,9 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 
 #Backup commands
 tar -cvf backup.tar *
+
+![Alt text](os_exp01_49.png)
 ## OUTPUT
-
-
 mkdir backupdir
  
 mv backup.tar backupdir
@@ -356,15 +356,19 @@ mv backup.tar backupdir
 cd backupdir
  
 tar -tvf backup.tar
+
+![Alt text](os_exp01_50.png)
 ## OUTPUT
-
-
 tar -xvf backup.tar
+
+![Alt text](os_exp01_51.png)
 ## OUTPUT
 
 gzip backup.tar
 
 ls .gz
+
+![Alt text](os_exp01_52.png)
 ## OUTPUT
  
 gunzip backup.tar.gz
