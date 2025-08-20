@@ -502,7 +502,8 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 
-
+![Alt text](os_exp01_62.png)
+![Alt text](os_exp01_63.png)
 ## OUTPUT
 
 
@@ -530,6 +531,8 @@ echo “Sorry, you are not the owner of the /etc/passwd file”
 fi
  ```
 ./psswdperm.sh
+
+![Alt text](os_exp01_64.png)
 ## OUTPUT
 
 # check if with file location
@@ -576,6 +579,9 @@ fi
 ```
 
 ./ifnested.sh 
+
+![Alt text](os_exp01_65.png)
+![Alt text](os_exp01_66.png)
 ## OUTPUT
 
 
@@ -620,6 +626,9 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
+
+![Alt text](os_exp01_67.png)
+![Alt text](os_exp01_68.png)
 ##OUTPUT
 
 # check if a file
@@ -669,6 +678,10 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
+
+![Alt text](os_exp01_69.png)
+![Alt text](os_exp01_70.png)
+![Alt text](os_exp01_71.png)
 ##OUTPUT
 
 # looking for a possible value using elif
@@ -697,6 +710,9 @@ fi
 $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
+
+![Alt text](os_exp01_72.png)
+![Alt text](os_exp01_73.png)
 ## OUTPUT
 
 
@@ -713,6 +729,8 @@ fi
 ```
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
+
+![Alt text](os_exp01_74.png)
 ## OUTPUT
 
 # using the case command
@@ -734,6 +752,8 @@ $ chmod 755 casecheck.sh
  
 $ ./casecheck.sh 
  
+ ![Alt text](os_exp01_75.png)
+ ![Alt text](os_exp01_errorfile1.png)
 cat > whiletest
 ```bash
 #!/bin/bash
